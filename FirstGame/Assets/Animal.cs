@@ -15,6 +15,7 @@ public class Animal : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		Start();
 		print("Meow.");
 	}
 	
