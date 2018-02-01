@@ -56,7 +56,7 @@ public class Animal3_Bool : MonoBehaviour {
 	}
 	
 // Examples 9 & 10: ??? - True or False
-	public bool Evil = false;
+	public bool ??? = false;
 	
 	void OnMouseDown ()
 	{
