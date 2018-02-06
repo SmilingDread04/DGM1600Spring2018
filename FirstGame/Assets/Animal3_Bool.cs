@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Animal3_Bool : MonoBehaviour {
+	
+	public string Name;
+	public string foodCount;
 
 // From what I was taught in class about "if" statements, they are essentially the lightswitches for a program: when set one way, a series of steps
 // are executed in order to make it stand out; while, in the other direction, doesn't do anything.  Take for example the statements I've created below:
@@ -22,7 +25,7 @@ public class Animal3_Bool : MonoBehaviour {
 // Examples 3 & 4: Cat - True or False
 	public bool Cat = false;
 	
-	void OnMouseDown ()
+	void OnMouseEnter ()
 	{
 		if(Cat == true) {
 			print("This cat has " + foodCount + " fish." );
@@ -34,36 +37,36 @@ public class Animal3_Bool : MonoBehaviour {
 // Examples 5 & 6: Door - True or False
 	public bool Door = false;
 	
-	void OnMouseDown ()
+	void OnMouseLeft ()
 	{
 		if(Door == true) {
-			print("The " + Name + "Door is unlocked for everyone, so please come in!);
+			print("The " + Name + " Door is unlocked for everyone, so please come in!");
 		}
 		if(Door == false)
-			print("This is a " + Name + " you ditz, go play somewhere else!);
+			print("This is a " + Name + " you ditz, go play somewhere else!");
 	}
 	
 // Examples 7 & 8: foodCount - Greater or Less than
-	public bool foodCount = false;
+	public bool food = false;
 	
-	void OnMouseDown ()
+	void OnMouseUp ()
 	{
-		if(foodCount >= 10) {
+		if(food == true) {
 			print("This " + Name + " has " + foodCount + " food.");
 		}
-		if(foodCount <= 10)
+		if(food == false)
 			print("This " + Name + " needs 10 food to survive.");
 	}
 	
-// Examples 9 & 10: ??? - True or False
-	public bool ??? = false;
+// Examples 9 & 10: Unknown - True or False
+	public bool Unknown = false;
 	
-	void OnMouseDown ()
+	void OnMouseRight ()
 	{
-		if(??? == true) {
+		if(Unknown == true) {
 			print("You wanna get hiiiigh... on Marioshrooms?");
 		}
-		if(??? == false)
+		if (Unknown == false)
 			print("You wanna get hiiiigh...?  Well, then go watch South Park, you dumbnut!");
 	}
 }

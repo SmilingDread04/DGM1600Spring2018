@@ -11,7 +11,7 @@ public class Notes : MonoBehaviour {
 	
 	// Update is called once per frame
 	// String: A class that follows a sequence of characters
-	// Integer: A class that represents a whole number
+	// Integer: A class that represents a whole number (I.E. public int Heart; can now be used for a reference {Heart = 100})
 	// Float: A class that represents a fractional (floating point) number (I.E. 3.14)
 	// Print: A class that
 	// =: Assign something to a certain value

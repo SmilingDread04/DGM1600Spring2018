@@ -9,7 +9,7 @@ public class IfElse : MonoBehaviour {
 // option that can apply if a certain criteria is met.  See, for example, the strings created below:
 	public bool Key;
 	public int Health = 100;
-	public string Password = OU812;
+	public string Password = "OU812";
 
 	void Start () {
 		if (Key)
@@ -37,12 +37,13 @@ public class IfElse : MonoBehaviour {
 		{
 			print("Try again.");
 		}
+	}
 		
 // Despite this, much like the regular If clause, the catch is that you will have to add each public condition for every single
 // situation; be it a Key, NPC, etc.  For a few more examples, check below:
 	
 // Example 1: Ghost
-	public bool Ghost
+	public bool Ghost;
 		if(Ghost) 
 		{
 			print("It seems that physical attacks will not work.  Try using magic!");
@@ -53,7 +54,7 @@ public class IfElse : MonoBehaviour {
 		}
 
 // Example 2: Stamina
-	public int Stamina = 150
+	public int Stamina = 150;
 		
 		if(Stamina > 30)
 		{
@@ -65,10 +66,10 @@ public class IfElse : MonoBehaviour {
 		}
 
 // Example 3: Map
-	public bool Map
+	public bool Map;
 		if(Map)
 		{
-			print("Press L3 to open up the world map.);
+			print("Press L3 to open up the world map.");
 		}
 		else 
 		{
@@ -76,7 +77,7 @@ public class IfElse : MonoBehaviour {
 		}
 			      
 // Example 4: Hammer
-	public bool Hammer
+	public bool Hammer;
 		if (Hammer)
 		{
 			print("A weapon type capable of destroying shields and dealing heavy damage.");
@@ -87,7 +88,7 @@ public class IfElse : MonoBehaviour {
 		}
 			      
 // Example 5: Xbox
-	public bool Xbox
+	public bool Xbox;
 		if (Xbox)
 		{
 			print("I like to play my Xbox, I love to play 360!");
