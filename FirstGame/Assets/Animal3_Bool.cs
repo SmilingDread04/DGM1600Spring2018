@@ -64,6 +64,6 @@ public class Animal3_Bool : MonoBehaviour {
 			print("You wanna get hiiiigh... on Marioshrooms?");
 		}
 		if(??? == false)
-			print("You wanna get hiiiigh...?  Well, then go watch South Park, you dumbass!");
+			print("You wanna get hiiiigh...?  Well, then go watch South Park, you dumbnut!");
 	}
 }
