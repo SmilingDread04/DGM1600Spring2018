@@ -44,6 +44,8 @@ public class IfElse : MonoBehaviour {
 	
 // Example 1: Ghost
 	public bool Ghost;
+
+	void attacks () {
 		if(Ghost) 
 		{
 			print("It seems that physical attacks will not work.  Try using magic!");
@@ -52,10 +54,13 @@ public class IfElse : MonoBehaviour {
 		{
 			print("That is not a ghost.  Don't believe me?  Then poke 'em, you'll be sorry!");
 		}
+	}
 
 // Example 2: Stamina
 	public int Stamina = 150;
-		
+	
+	void Reset ()
+	{
 		if(Stamina > 30)
 		{
 			print("Be careful!  You only have " + Stamina + " left!");
@@ -63,10 +68,13 @@ public class IfElse : MonoBehaviour {
 		else 
 		{
 			print("You still have " + Stamina + " left, so sprint away!");
-		}
+		}	
+	}
 
 // Example 3: Map
 	public bool Map;
+
+	void check () {
 		if(Map)
 		{
 			print("Press L3 to open up the world map.");
@@ -75,9 +83,13 @@ public class IfElse : MonoBehaviour {
 		{
 			print("This feature is currently unavailable.");
 		}
-			      
+			 
+	}
+		     
 // Example 4: Hammer
 	public bool Hammer;
+
+	void Weapon () {
 		if (Hammer)
 		{
 			print("A weapon type capable of destroying shields and dealing heavy damage.");
@@ -86,9 +98,12 @@ public class IfElse : MonoBehaviour {
 		{
 			print("This weapon is not a hammer, so just sell it on eBay, seriously.");
 		}
+	}
+		
 			      
 // Example 5: Xbox
 	public bool Xbox;
+	void Currently () {
 		if (Xbox)
 		{
 			print("I like to play my Xbox, I love to play 360!");
@@ -97,6 +112,5 @@ public class IfElse : MonoBehaviour {
 		{
 			print("...Buy and Xbox.");
 		}
-			      
 	}
 }
