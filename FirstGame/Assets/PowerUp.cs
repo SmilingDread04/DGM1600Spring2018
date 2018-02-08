@@ -5,8 +5,11 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUp : ScriptableObject 
 {
-
-	// Use this for initialization
-	public int PowerLevel = 100;
+	public int PowerLevel = 10;
+	public Player CurrentPlayer;
+	public void RunPowerUp()
+	{
+		CurrentPlayer.Score += PowerLevel;
+	}
 	public string Name = "Health";
 }
