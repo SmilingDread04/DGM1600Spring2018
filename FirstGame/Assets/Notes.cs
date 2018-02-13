@@ -19,6 +19,8 @@ public class Notes : MonoBehaviour {
 	// !=: Check the unequality
 	// >=, >:
 	// <=, >:
+	// []: Makes objects into arrays (multiple of one thing {players, high scores, etc.})
+	// foreach: , labelled as "foreach (var VARIABLE [I.E. player] in COLLECTION [I.E. Players])", then shows each variable on screen (I.E. Player 1, Player 2, etc.)
 
 	void Update () {
 		
