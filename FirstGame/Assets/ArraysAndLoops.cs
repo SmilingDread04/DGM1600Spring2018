@@ -4,10 +4,24 @@ using UnityEngine;
 
 public class ArraysAndLoops : MonoBehaviour {
 
+// From the very little I did understand (mainly because I was fixated on repairing coding script), arrays are the equivalent to the
+// ..."genus" section of the  binomial system of nomenclature (A.K.A. Genus Species Family), where each array defines a group of certain
+// areas (I.E. list of scores, player order, etc.) without forcing each part to be manually typed by the coder, as seen below:
+	
     public string[] Players;
     public int[] Scores;
     public PowerUp[] PowerUps;
-	public Player[] Players;
+    public Player[] Players;
+    public string[] Enemies
+    public int[] Stamina
+    public int[] HP
+    public string[] Boss
+    public int[] Level
+    public int[] Time
+	    
+// Each string/int/reference, on their own, gives the basic call back to another variable, allowing the user to create multiple command
+// on their own, but after adding the [] symbols, these can be automatically set via Unity's program without having to write every
+// single variable, thus reducing stress and time used for the problem and applying to more necessary applications.
 
     // Use this for initialization
     void Start () {
