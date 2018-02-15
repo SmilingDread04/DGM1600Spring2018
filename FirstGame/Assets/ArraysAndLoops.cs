@@ -7,7 +7,8 @@ public class ArraysAndLoops : MonoBehaviour {
 // From the very little I did understand (mainly because I was fixated on repairing coding script), arrays are the equivalent to the
 // ..."genus" section of the  binomial system of nomenclature (A.K.A. Genus Species Family) and the loop is the "species, where each array 
 // defines a group of certain areas (I.E. list of scores, player order, etc.) with the loop defining how many array elements are used 
-// (I.E. the number in between the brackets used for defining an array), as seen below:	
+// (I.E. the number in between the brackets used for defining an array), as seen below:
+
     public string[4] Players;
     public int[2] Scores;
     public PowerUp[1] PowerUps;
