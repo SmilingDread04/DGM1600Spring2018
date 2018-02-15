@@ -9,6 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fed97a84063c28849bee4ed78c4e420e, type: 3}
-  m_Name: New The Incredibles
+  m_Name: The Incredibles
   m_EditorClassIdentifier: 
-  FamilyList: []
+  FamilyList:
+  - Bob
+  - Helen
+  - 
+  - 
+  - 
