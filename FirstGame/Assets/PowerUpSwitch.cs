@@ -15,8 +15,9 @@ public class PowerUpSwitch : MonoBehaviour {
 				break;
 				
 			case 1000:
-				print("You just hit a special")
+				print("You just hit a special");
 				break;
+
 		}
 	}
 
