@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour {
 
+// Switch statements are, from what I've noticed, a simpler version of the if-else clause, allowing a program to run quicker without
+// needing to run every possible scenario.  Of every possible lesson, this is by far the most interesting, as I can see how this can
+// apply to any kind of program, such as the ones stated below:
+	
 	public string UserName;
-
+	public int ItemBuy;
 
 	// Use this for initialization
 	void Start () {
@@ -25,14 +29,38 @@ public class Switch : MonoBehaviour {
 			case "BlackPanther":
 				print("Made over 200 million this weekend!");
 				break;
+				
+			case "JusticeLeague:
+				print("...You have no good soul...")
+				break;
 
 			default:
 				// do work
 				print("Why don't you just tell me which movie you want to see?");
 				break;
+		}
+			
 
-
-
+		switch (ItemBuy)
+		{
+			case "HealthUp":
+				print("Your health gauge has increased by 100 points!")
+				break;
+			
+			case "Hammer":
+				print("Have fun smashing brains in!")
+				break;
+				
+			case "Sword":
+				print("So sharp and pointy!"
+				break;
+				      
+			case "AmmoPouch":
+				print("Your ammo count has increased by 100 slots!)
+				      
+			default:
+				print("This item is not sold here.")
+			
 		}
 	}
 	
