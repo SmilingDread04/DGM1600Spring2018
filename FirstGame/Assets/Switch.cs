@@ -9,7 +9,7 @@ public class Switch : MonoBehaviour {
 // apply to any kind of program, such as the ones stated below:
 	
 	public string UserName;
-	public int ItemBuy;
+	public string ItemBuy;
 
 	// Use this for initialization
 	void Start () {
@@ -30,8 +30,8 @@ public class Switch : MonoBehaviour {
 				print("Made over 200 million this weekend!");
 				break;
 				
-			case "JusticeLeague:
-				print("...You have no good soul...")
+			case "JusticeLeague":
+				print("...You have no good soul...");
 				break;
 
 			default:
@@ -44,22 +44,20 @@ public class Switch : MonoBehaviour {
 		switch (ItemBuy)
 		{
 			case "HealthUp":
-				print("Your health gauge has increased by 100 points!")
+				print("Your health gauge has increased by 100 points!");
 				break;
 			
 			case "Hammer":
-				print("Have fun smashing brains in!")
+				print("Have fun smashing brains in!");
 				break;
 				
 			case "Sword":
-				print("So sharp and pointy!"
+				print("So sharp and pointy!");
 				break;
 				      
 			case "AmmoPouch":
-				print("Your ammo count has increased by 100 slots!)
-				      
-			default:
-				print("This item is not sold here.")
+				print("Your ammo count has increased by 100 slots!");
+				break;
 			
 		}
 	}
