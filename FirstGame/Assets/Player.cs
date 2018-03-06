@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : ScriptableObject 
 {
 public string PlayerName;
+public int Health;
 public int Score;
 public int MPs;
 }
