@@ -26,26 +26,26 @@ public class FunctionsWithParameters : MonoBehaviour
 		PlayerData("Bob");
 	}
 	
-	void OnTriggerExit(Collider other)
-	{
-		print(other + "is scarred for life...");
-		print(Collider + "is a monster!")
-	}
+	//void OnTriggerExit(Collider other)
+	//{
+		//print(other + "is scarred for life...");
+		//print(Collider + "is a monster!");
+	//}
 	
-	void OnBecameVisible ()
-	{
-		enabled = true
-		print("Who's that Pokemon?");
-		print("A: Ghastly")
-		print("B: Rotom")
-		print("C: Magikarp)
-	}
+	//void OnBecameVisible ()
+	//{
+	//	enabled = true
+		//print("Who's that Pokemon?");
+		//print("A: Ghastly");
+		//print("B: Rotom");
+		//print("C: Magikarp");
+	//}
 	
-	void OnBecameInvisible ()
-	{
-		enabled = false
-		print("Iiiit'sss... Not there...  What the hell?")
-	}
+	//void OnBecameInvisible ()
+	//{
+	//	enabled = false
+		//print("Iiiit'sss... Not there...  What the hell?");
+	//}
 	
 	void AddNumbers(int a, int b)
 	{
@@ -62,9 +62,9 @@ public class FunctionsWithParameters : MonoBehaviour
 		Health += newHealth;
 	}
 	
-	void OnFailedToConnect(NetworkConnectionError error) {
-        Debug.Log("...You're a " + other + ", you can't play MOBAs: " + error);
-    }
+	//void OnFailedToConnect(NetworkConnectionError error) {
+    //    Debug.Log("...You're a " + other + ", you can't play MOBAs: " + error);
+    //}
 
 }
 
