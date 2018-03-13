@@ -8,6 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1730c51568b35dd4dbacd56554be2739, type: 3}
-  m_Name: New Calculation
+  m_Script: {fileID: 11500000, guid: 24696e205d9b46046a3fd4a4e0f24e84, type: 3}
+  m_Name: Subtract
   m_EditorClassIdentifier: 
+  aNum: 0
+  bNum: 0
