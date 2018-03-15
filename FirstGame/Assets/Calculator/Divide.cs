@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Subtract : Calculation 
+public class Divide : Calculation	 
 {
-
+	
 	public override string FinishCalculation()
 	{
-		return (aNum - bNum).ToString();
+		return (aNum / bNum).ToString();
 	}
 }

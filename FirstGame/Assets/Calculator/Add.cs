@@ -6,11 +6,8 @@ using UnityEngine;
 public class Add : Calculation 
 {
 
-	public override float Calculate (string a, string b)
+	public override string FinishCalculation()
 	{
-		float aNum = float.Parse(a);
-		float bNum = float.Parse(b);
-
-		return aNum + bNum;
+		return (aNum + bNum).ToString();
 	}
 }

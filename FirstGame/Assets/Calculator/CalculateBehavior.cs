@@ -16,4 +16,5 @@ public class CalculateBehavior : MonoBehaviour
 	{
 		SolutionText.text = Calculation.Calculate(Input1.text, Input2.text).ToString();
 	}
+	
 }
