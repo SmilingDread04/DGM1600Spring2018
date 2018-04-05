@@ -6,10 +6,11 @@ using UnityEngine;
 public class PowerUp : ScriptableObject 
 {
 	public int PowerLevel = 10;
-	public Player CurrentPlayer;
-	public void RunPowerUp()
+
+	public MovePattern MovePatternTransfer;
+
+	public MovePattern Transfer()
 	{
-		CurrentPlayer.Score += PowerLevel;
+		return MovePatternTransfer;
 	}
-	public string Name = "Health";
 }

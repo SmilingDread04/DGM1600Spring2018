@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FloatInput : InputBase {
 
-	public string InputName = "Horizontal";
+	public string InputName;
 
 	public override float SetFloat ()
 	{
