@@ -17,9 +17,9 @@ public class MovePattern : MonoBehaviour {
 	public void Move(CharacterController controller, Transform transform)
 	{
 		if (controller.isGrounded) {        
-        	moveDirection.x = InputX.SetFloat;
-        	moveDirection.y = InputY.SetFloat;
-        	moveDirection.z = InputZ.SetFloat;
+        	moveDirection.x = InputX.SetFloat();
+        	moveDirection.y = InputY.SetFloat();
+        	moveDirection.z = InputZ.SetFloat();
             
         	moveDirection = transform.TransformDirection(moveDirection);
         	moveDirection *= speed;
