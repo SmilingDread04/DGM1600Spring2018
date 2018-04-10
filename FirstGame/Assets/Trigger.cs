@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour {
 
-	public PowerUp PowerUpTransfer;
+	public PowerUp PowerUp;
 
-	private void OnTriggerEnter(Collider obj.name)
+	private void OnTriggerEnter(Collider other)
 	{
-		print (obj.name);
+		other.GetComponent<MoveCharacter>().MovePattern = PowerUp.MovePattern;
 	}
 }

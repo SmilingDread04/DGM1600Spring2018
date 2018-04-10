@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class BoolInput : MonoBehaviour {
+public class BoolInput : MonoBehaviour 
+{
 
 	public string InputName;
 	public float FloatValue = 1;

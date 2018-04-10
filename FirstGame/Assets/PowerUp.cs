@@ -5,12 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUp : ScriptableObject 
 {
-	public int PowerLevel = 10;
+	public int PowerLevel;
 
-	public MovePattern MovePatternTransfer;
-
-	public MovePattern Transfer()
-	{
-		return MovePatternTransfer;
-	}
+	public MovePattern MovePattern;
 }
