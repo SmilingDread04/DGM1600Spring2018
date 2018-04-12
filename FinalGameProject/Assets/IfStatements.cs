@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 //Changes the color of the Player Object when standing on a specific tile.
-public class IfStatements : MonoBehaviour 
+public class IfStatements : MonoBehaviour
 {
-  void OnCollisionEnter (Collision col)
+  void OnTriggerEnter (Collider col)
 	{
    	if(col.gameObject.name == "Red")
    		{
-     		col.gameObject.GetComponent<Renderer>().material.color = Color.Red;
+     		col.gameObject.GetComponent<Renderer>().material.color = Color.red;
 		}
   	  
 	else if(col.gameObject.name == "Green")
 		{
-		col.gameObject.GetComponent<Renderer>().material.color = Color.Green;
+		col.gameObject.GetComponent<Renderer>().material.color = Color.green;
 		}
 		
 	else if(col.gameObject.name == "Blue")
 		{
-		col.gameObject.GetComponent<Renderer>().material.color = Color.Blue;
+		col.gameObject.GetComponent<Renderer>().material.color = Color.blue;
 		}
 	}
 }
