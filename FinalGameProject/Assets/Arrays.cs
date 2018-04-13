@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Arrays : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	//public type[] nameOfArray = new type[insert number here]
+	//or
+	//type[] nameOfArray = { , , , , ,};
 	
-	// Update is called once per frame
-	void Update () {
+	public Array[] shapes
 		
+	void Start ()
+	{
+		shapes = GameObject.FindGameObjectsWithTag("Shape");
 	}
 }
