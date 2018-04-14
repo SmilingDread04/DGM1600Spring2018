@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 //Changes the color of the Player Object when standing on a specific tile.
-public class IfAndElseStatements : MonoBehaviour
+public class IfStatements : MonoBehaviour
 {
 
     [SerializeField] private string loadLevel;
