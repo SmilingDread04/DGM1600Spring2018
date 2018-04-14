@@ -9,7 +9,7 @@
 // Use of GitKraken
 // Scripts as Behavior Components
 // Use of Scriptable Objects
-// Conventions and Syntax
+// Conventions and Syntax (., ;, {}, etc.)
 // Variables (Fields and Parameters)
 // Arrays
 // Data Types
