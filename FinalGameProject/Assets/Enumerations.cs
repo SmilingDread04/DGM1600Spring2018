@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Enumerations : MonoBehaviour {
 
-public enum Difficulty {Easy, Medium, Hard};
+//public enum Difficulty {Easy, Medium, Hard};
 	// Use this for initialization
 	void Start () {
-		Difficulty myDifficulty
+		//Difficulty myDifficulty
 			
-		myDifficulty = Difficulty.Easy
+		//myDifficulty = Difficulty.Easy
 	}
 	
 	// Update is called once per frame

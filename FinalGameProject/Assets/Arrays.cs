@@ -8,10 +8,10 @@ public class Arrays : MonoBehaviour {
 	//or
 	//type[] nameOfArray = { , , , , ,};
 	
-	public Array[] shapes
+	//public Array[] shapes
 		
-	void Start ()
-	{
-		shapes = GameObject.FindGameObjectsWithTag("Shape");
-	}
+	//void Start ()
+	//{
+		//shapes = GameObject.FindGameObjectsWithTag("Shape");
+	//}
 }
