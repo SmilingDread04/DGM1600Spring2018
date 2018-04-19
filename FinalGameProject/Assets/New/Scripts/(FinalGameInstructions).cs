@@ -16,7 +16,7 @@
 // Void Functions
 // Return Functions
 // Functions with Parameters
-// Classes (public int Health, private float speed, etc.);
+// Classes (public int Health, private float speed, etc.)*
 // Scope and Access Modifiers (public and private variables)*
 // If Statements*
 // Else Clause*
@@ -30,9 +30,9 @@
 
 // Character Controller*
 // Triggers/Colliders*
-// Navmesh
+// Navmesh(Where Object Can Walk)
 // UI*
-// Particles
+// Particles (ParicleSystem.)
 // Prefabs
 
 // Game Mechanics Requirements: 
