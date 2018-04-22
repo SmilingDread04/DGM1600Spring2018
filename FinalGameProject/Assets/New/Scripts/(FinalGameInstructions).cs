@@ -1,8 +1,10 @@
-﻿// Create a Game IE Sides-scroller, Top-down or Determined by the instructor (demonstrated by instructor)
+// Create a Game IE Sides-scroller, Top-down or Determined by the instructor (demonstrated by instructor)
 // Add more features to the game (Demonstrated by instructor)
 // Add gameplay (Demonstrated by instructor)
 // Add advanced gameplay (Demonstrated by instructor)
+
 //*=Tasks already taken care of
+
 // The project must contain:
 
 // Use of GitHub 40+ commits
@@ -32,15 +34,15 @@
 // Triggers/Colliders*
 // Navmesh(Where Object Can Walk)
 // UI*
-// Particles (ParicleSystem.)
-// Prefabs
+// Particles (ParicleSystem)*
+// Prefabs*
 
 // Game Mechanics Requirements: 
 
 // PowerUp/Downs (Abilites for the Tiles)
 // Health
 // Character Movement*
-// State Machine
+// State Machine*
 // Instructor Choice
 
 // Grading Criteria:
