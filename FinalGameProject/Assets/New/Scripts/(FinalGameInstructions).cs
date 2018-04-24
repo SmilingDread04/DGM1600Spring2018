@@ -23,7 +23,7 @@
 // If Statements*
 // Else Clause*
 // Switch Statements*
-// Enumerations* 
+// Enumerations*
 // For Loops*
 // Foreach Loops
 // While Loops*
