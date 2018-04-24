@@ -95,15 +95,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
+    agentRadius: 30
+    agentHeight: 30
+    agentSlope: 14
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 10
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -332,7 +332,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 268594061
+  randomSeed: 1962768776
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7078,7 +7078,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &811972126
 MeshRenderer:
@@ -7138,7 +7138,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 811972125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.77554244, y: -3.004962, z: -0.23497427}
+  m_LocalPosition: {x: 6.03, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7156,7 +7156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Agent: {fileID: 811972131}
-  player: {fileID: 0}
+  Player: {fileID: 1764461874}
 --- !u!195 &811972131
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7189,6 +7189,8 @@ GameObject:
   - component: {fileID: 944031223}
   - component: {fileID: 944031222}
   - component: {fileID: 944031221}
+  - component: {fileID: 944031225}
+  - component: {fileID: 944031226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7259,6 +7261,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944031225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 944031220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94de2c48162c0e4fb09d04d011f307a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles: 4
+--- !u!114 &944031226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 944031220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d800ee9d4f027ce4d9bbe2154e460b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: 1
 --- !u!1 &972929185
 GameObject:
   m_ObjectHideFlags: 0

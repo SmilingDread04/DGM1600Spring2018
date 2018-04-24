@@ -6,15 +6,11 @@ using UnityEngine.AI;
 public class BasicAI : MonoBehaviour {
 
 	public NavMeshAgent Agent;
-	public Transform player;
+	public Transform Player;
 
     // Use this for initialization
     void Start () {
 		Agent = GetComponent<NavMeshAgent>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		Agent.destination = player.position;
+		Agent.destination = Player.position;
 	}
 }

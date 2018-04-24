@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ForLoops : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    
+	public int tiles;
+    
+    void Start ()
+    {
+        for(int i = 0; i < tiles; i++)
+        {
+            print("There are " + i + " Tile Power Ups for grabs!");
+        }
+    }
 }

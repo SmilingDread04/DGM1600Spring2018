@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class WhileLoops : MonoBehaviour {
 
+public int enemies;
+
 	// Use this for initialization
 	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+		while(enemies > 0)
+        {
+            print("Don't forget: There are enemies in the room, so be careful");
+            enemies--;
+        }
 	}
 }
