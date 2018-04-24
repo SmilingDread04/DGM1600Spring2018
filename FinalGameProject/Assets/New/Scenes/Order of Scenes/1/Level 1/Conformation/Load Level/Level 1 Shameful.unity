@@ -332,7 +332,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1962768776
+  randomSeed: 1387216369
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7660,9 +7660,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1423273694}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 500
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 500
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

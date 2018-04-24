@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        health = 100; //Max Health Of Player, Should Be Same As Max Slider Value       
+        health = 500; //Max Health Of Player, Should Be Same As Max Slider Value       
     }
 
     // Update is called once per frame
@@ -27,13 +27,13 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Equals("Enemy")) { if (health > 0) health = health - 1; }//Stop Damaging Once Health Reaches 0
+        if (other.gameObject.name.Equals("Player Cube")) { if (health > 0) health = health - 1; }//Stop Damaging Once Health Reaches 0
         if (other.gameObject.name.Equals("Green")) { if (health < 100) health = health + 100; }//Stops Healing Once Health Reaches 100
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.name.Equals("Enemy")) 
+        if (other.gameObject.name.Equals("Player Cube")) 
         { 
             if (health > 0) 
             {

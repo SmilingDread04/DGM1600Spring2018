@@ -24,15 +24,15 @@
 // Else Clause*
 // Switch Statements*
 // Enumerations* 
-// For Loops
+// For Loops*
 // Foreach Loops
-// While Loops
+// While Loops*
 
 // Unity Component Requirements:
 
 // Character Controller*
 // Triggers/Colliders*
-// Navmesh(Where Object Can Walk)*
+// Navmesh(Where Object Can Walk)
 // UI*
 // Particles (ParicleSystem)*
 // Prefabs*
