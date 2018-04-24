@@ -25,7 +25,7 @@
 // Switch Statements*
 // Enumerations*
 // For Loops*
-// Foreach Loops
+// Foreach Loops*
 // While Loops*
 
 // Unity Component Requirements:
