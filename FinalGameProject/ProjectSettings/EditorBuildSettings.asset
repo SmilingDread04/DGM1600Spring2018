@@ -4,4 +4,122 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/Title Screen.unity
+    guid: e9a2a177fba5da248a6afb931a1be2a5
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level Select.unity
+    guid: 8288c0f1da4e33c4dbe222f6191af4d9
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Difficulty Select 1.unity
+    guid: cd14707787a6f1d49900c6b9d33b7614
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Easy 1.unity
+    guid: 5c075ab7bbaabaa46b338d01fb402bb5
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Hard 1.unity
+    guid: 7b493f4da7ae16e4db257ed67b7a0e16
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Medium 1.unity
+    guid: 1406a403585689448ad1e3fecb0b46ad
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Psychotic 1.unity
+    guid: a50cddb0ffabb2440be4b996fc666e2d
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Shameful 1.unity
+    guid: 12cc4779b931f314cb3d6d9e36b9a33d
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 1/Conformation/Load Level/Level
+      1 Shameful.unity
+    guid: e2e0754be7608ee4899ecabb76ea656d
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Difficulty Select 2.unity
+    guid: 57195300f6d28944fb7098c3886db220
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Conformation/Easy 2.unity
+    guid: 3bb3862a9a66efb439a62ccf83f10ebe
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Conformation/Hard 2.unity
+    guid: 72a95aa4f43116144a76a6d67f987e10
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Conformation/Medium 2.unity
+    guid: 576acad71d0dc8549b8cc31e61bb1006
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Conformation/Psychotic 2.unity
+    guid: c1c41eda10adf814eaa7bd665a421364
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 2/Conformation/Shameful 2.unity
+    guid: 730a54e2435cffe43bd90b67a388646c
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Difficulty Select 3.unity
+    guid: 3b24db19f3151c847a97617213b020a1
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Conformation/Easy 3.unity
+    guid: e4f2522994d19604eb786d045d1dc3f4
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Conformation/Hard 3.unity
+    guid: c8fe624f98da991468aa765209b04b63
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Conformation/Medium 3.unity
+    guid: 57bdc0a12f06e764eba24ce2f6d8f470
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Conformation/Psychotic 3.unity
+    guid: 3f52db577c2752444a72d7d9e954ee1b
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 3/Conformation/Shameful 3.unity
+    guid: 7524e95730928b545ba502b9dc19d6fc
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Difficulty Select 4.unity
+    guid: d7b6f757aff819741bc4d016c2dfaba2
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Conformation/Easy 4.unity
+    guid: f211d47535b919e4eb15b95ebf965cbc
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Conformation/Hard 4.unity
+    guid: c9e66f8ea257fe349aa57ec97e9feaf8
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Conformation/Medium 4.unity
+    guid: f90d8ec72bafe4343aeca93a588ae1e9
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Conformation/Psychotic 4.unity
+    guid: 944e01701b17fd846b272a619c8e4578
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 4/Conformation/Shameful 4.unity
+    guid: e1b4ebd6e8d042f409c52cc22c1bf251
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Difficulty Select 5.unity
+    guid: b66a769cd55038a4c80ed0fd9b785a81
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Conformation/Easy 5.unity
+    guid: fece5fe4d38286142ac68169684be640
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Conformation/Hard 5.unity
+    guid: ead42927f27408547b47068223cf7a33
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Conformation/Medium 5.unity
+    guid: a70a382aed9ce8b49a6a686c3b48e633
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Conformation/Psychotic 5.unity
+    guid: a2560cbb004a8344b98e797a1cd0f845
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 5/Conformation/Shameful 5.unity
+    guid: 27ae4174695f2b4478ba46787c71bcca
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Difficulty Select 6.unity
+    guid: 18c18e2d3c0d2c94b9b7d4513235d3cf
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Conformation/Easy 6.unity
+    guid: 10678adf0f53b024f9987513492e7507
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Conformation/Hard 6.unity
+    guid: 371d66ca0671e0741a75f2c1b2ebb89c
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Conformation/Medium 6.unity
+    guid: 8b501a745bedf3f4c848b527d916a6a0
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Conformation/Psychotic 6.unity
+    guid: ce39c3278cf677a40b8584bbceb2cabc
+  - enabled: 1
+    path: Assets/New/Scenes/Order of Scenes/1/Level 6/Conformation/Shameful 6.unity
+    guid: f14df608110835d4095c99f125b6ec4c

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -32,7 +33,18 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.name.Equals("Enemy")) { if (health > 0) health = health - 1; }//Stop Damaging Once Health Reaches 0
+        if (other.gameObject.name.Equals("Enemy")) 
+        { 
+            if (health > 0) 
+            {
+                health = health - 1; 
+            }
+
+            else if (health == 0)
+            {
+                SceneManager.LoadScene("Title Screen");
+            }
+        }
     }
     void ChangeHealth()
     {
