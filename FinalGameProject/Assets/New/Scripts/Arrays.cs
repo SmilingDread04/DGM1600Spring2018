@@ -9,10 +9,16 @@ public class Arrays : MonoBehaviour
     //or
     //type[] nameOfArray = { , , , , ,};
 
-    public GameObject[] shapes;
+    public GameObject[] levels = new GameObject[6];
 
 
     private void Start() {
-        shapes = GameObject.FindGameObjectsWithTag("Shape");
+        levels = GameObject.FindGameObjectsWithTag("Level");
+
+        for (int i = 0; i < levels.Length; i++)
+        {
+            Debug.Log("This is Level " + i + " of 6, ");
+        }
     }
+
 }
