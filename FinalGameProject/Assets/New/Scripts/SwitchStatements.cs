@@ -17,23 +17,23 @@ public class SwitchStatements : MonoBehaviour
                 break;
 
             case 2:
-                print("This is Level 2.  If you know how the game works, then here you'll learn the objective for completing each level.");
+                print("This is Level 2.  Hope you're an Astronaut, because this level is all about embracing the gravity!");
                 break;
 
             case 3:
-                print("This is Level 3.  Here, you'll learn the hidden mechanics behind each tile.");
+                print("This is Level 3.  Ever wanted to be like Luigi?  Well this level is all about jumping like Super Mario Bro!");
                 break;
 
             case 4:
-                print("This is Level 4. Ready for a true basics test?");
+                print("This is Level 4. Ever wonder if we would combine the previous gimmicks?  Absolutely, which is why this level exists!");
                 break;
 
             case 5:
-                print("This is Level 5.  Think you're ready?  Well, we'll just see how you deal with ENEMIES!");
+                print("This is Level 5.  Don't worry, we'll go easier on your here.  This level is about speed and nothing but!");
                 break;
 
             case 6:
-                print("This is Level 6.  This is the culmination of all you've endured so far, so good luck.");
+                print("This is Level 6.  This is the culmination of all you've endured so far, so good luck!");
                 break;
 
             default:

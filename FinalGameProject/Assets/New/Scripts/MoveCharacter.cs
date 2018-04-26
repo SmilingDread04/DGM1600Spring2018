@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour
 {
-    public float speed = 6.0F;
-    public float jumpSpeed = 8.0F;
-    public float gravity = 20.0F;
+    public float speed;
+    public float jumpSpeed;
+    public float gravity;
+    public NewScriptableObject Scripted;
     private CharacterController controller;
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
+        speed = Scripted.speed;
+        jumpSpeed = Scripted.jumpSpeed;
+        gravity = Scripted.gravity;
     }
 
     private Vector3 moveDirection = Vector3.zero;

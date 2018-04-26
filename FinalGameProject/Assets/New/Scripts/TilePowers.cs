@@ -16,12 +16,12 @@ public class TilePowers : MonoBehaviour {
 
             else if (gameObject.name == "Green")
             {
-                stats.speed = 12.0F;
+                stats.jumpSpeed = 16.0F;
             }
 
             else if (gameObject.name == "Blue")
             {
-                stats.jumpSpeed = 16.0F;
+                stats.speed = 12.0F;
             }
         }
     }

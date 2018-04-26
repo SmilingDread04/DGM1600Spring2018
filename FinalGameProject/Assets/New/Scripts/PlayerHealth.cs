@@ -11,10 +11,100 @@ public class PlayerHealth : MonoBehaviour
 
     public static int health; //Health Of Player
 
+    public enum State
+    {
+        Shameful,
+        Easy,
+        Medium,
+        Hard,
+        Psychotic
+    }
+
+    public State state;
+
+    IEnumerator ShamefulState()
+    {
+        Debug.Log("Welcome to the Shameful Difficulty!");
+        while (state == State.Shameful)
+        {
+            yield return 0;
+        }
+        Debug.Log("If you want to leave, then jump off of the stage!  Seriously, you'll be waiting for hours to die otherwise...");
+        NextState();
+    }
+
+    IEnumerator EasyState()
+    {
+        Debug.Log("Welcome to the Easy Difficulty!");
+        while (state == State.Easy)
+        {
+            yield return 0;
+        }
+        Debug.Log("If this is your first time, then enjoy the level!");
+        NextState();
+    }
+
+    IEnumerator MediumState()
+    {
+        Debug.Log("Welcome to the Medium Difficulty!");
+        while (state == State.Medium)
+        {
+            yield return 0;
+        }
+        Debug.Log("Ah, you must be the casual player.  How... casual.");
+        NextState();
+    }
+
+    IEnumerator HardState()
+    {
+        Debug.Log("Welcome to the Hard Difficulty!");
+        while (state == State.Hard)
+        {
+            yield return 0;
+        }
+        Debug.Log("Do you love a challenge?  Well, so do we!");
+        NextState();
+    }
+
+    IEnumerator PsychoticState()
+    {
+        Debug.Log("Welcome to the Psychotic Difficulty!");
+        while (state == State.Psychotic)
+        {
+            yield return 0;
+        }
+        Debug.Log("Hope you're a quick learner!  If not, you're screwed!");
+        NextState();
+    }
+
     // Use this for initialization
     void Start()
     {
-        health = 500; //Max Health Of Player, Should Be Same As Max Slider Value       
+        if (state == State.Shameful)
+        {
+            health = 9000000; //Max Health Of Player, Should Be Same As Max Slider Value
+        }
+
+        else if (state == State.Easy)
+        {
+            health = 4000; //Max Health Of Player, Should Be Same As Max Slider Value
+        }
+
+        else if (state == State.Medium)
+        {
+            health = 2000; //Max Health Of Player, Should Be Same As Max Slider Value
+        }
+
+        else if (state == State.Hard)
+        {
+            health = 1000; //Max Health Of Player, Should Be Same As Max Slider Value
+        }
+
+        else if (state == State.Psychotic)
+        {
+            health = 500; //Max Health Of Player, Should Be Same As Max Slider Value
+        }
+        NextState();
     }
 
     // Update is called once per frame
@@ -33,11 +123,11 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.name.Equals("Player Cube")) 
-        { 
-            if (health > 0) 
+        if (other.gameObject.name.Equals("Player Cube"))
+        {
+            if (health > 0)
             {
-                health = health - 1; 
+                health = health - 1;
             }
 
             else if (health == 0)
@@ -50,5 +140,15 @@ public class PlayerHealth : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z)) { if (health > 0) health = health - 20; }
         if (Input.GetKeyDown(KeyCode.X)) { if (health < 100) health = health + 20; }
+    }
+
+    void NextState()
+    {
+        string methodName = state.ToString() + "State";
+        System.Reflection.MethodInfo info =
+            GetType().GetMethod(methodName,
+                                System.Reflection.BindingFlags.NonPublic |
+                                System.Reflection.BindingFlags.Instance);
+        StartCoroutine((IEnumerator)info.Invoke(this, null));
     }
 }

@@ -10,13 +10,13 @@
 // Use of GitHub 40+ commits
 // Use of GitKraken*
 // Scripts as Behavior Components*
-// Use of Scriptable Objects
+// Use of Scriptable Objects (1. Change Monobehaviour to ScriptableObject 2. Add public ints/floats & [CreateAssetMenu] 3. add Public ScriptableObject {Variable Name})*
 // Conventions and Syntax*
 // Variables (Fields and Parameters)*
 // Arrays*
 // Data Types (int, float, Vector3, etc.)*
 // Void Functions*
-// Return Functions
+// Return Functions*
 // Functions with Parameters*
 // Classes (public int Health, private float speed, etc.)*
 // Scope and Access Modifiers (public and private variables)*
@@ -42,7 +42,7 @@
 // PowerUp/Downs*
 // Health*
 // Character Movement*
-// State Machine
+// State Machine*
 // Instructor Choice
 
 // Grading Criteria:
