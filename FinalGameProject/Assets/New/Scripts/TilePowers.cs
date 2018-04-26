@@ -11,7 +11,7 @@ public class TilePowers : MonoBehaviour {
         {
             if (gameObject.name == "Red")
             {
-                stats.gravity = 1.0F;  
+                stats.gravity = 10.0F;  
             }
 
             else if (gameObject.name == "Green")
