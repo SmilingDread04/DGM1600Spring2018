@@ -118,7 +118,7 @@ public class PlayerHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name.Equals("Player Cube")) { if (health > 0) health = health - 1; }//Stop Damaging Once Health Reaches 0
-        if (other.gameObject.name.Equals("Green")) { if (health < 100) health = health + 100; }//Stops Healing Once Health Reaches 100
+        if (other.gameObject.name.Equals("Green")) { if (health < 9000000) health = health + 100; }//Stops Healing Once Health Reaches 100
     }
 
     private void OnTriggerStay(Collider other)
