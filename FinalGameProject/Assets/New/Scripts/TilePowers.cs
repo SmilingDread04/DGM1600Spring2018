@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Contains coding for Power Ups/ Power Downs
 public class TilePowers : MonoBehaviour {
 
     public MoveCharacter stats;
