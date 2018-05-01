@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+//Contains In-Game State Machine (not through animator) & Health Bar script 
 public class PlayerHealth : MonoBehaviour
 {
 
