@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Contains Data Types, Classes, & Character Controller Components
 public class MoveCharacter : MonoBehaviour
 {
     public float speed;
